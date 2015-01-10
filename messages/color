@@ -1,0 +1,4 @@
+output="\e[$1m"
+shift
+[ -n "$1" ] && output="$output$@\e[00m"
+printf "$output"
