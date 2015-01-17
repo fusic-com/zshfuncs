@@ -1,2 +1,2 @@
-autoload newline white
+autoload color
 color "01;31" "$@";
